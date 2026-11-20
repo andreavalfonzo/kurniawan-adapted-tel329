@@ -1,0 +1,15 @@
+{
+  "name": "contiki-ng-azure",
+  "version": "1.0.0",
+  "description": "TEL329 Tarea 4 - Actividad 4: middleware (CoAP -> Azure IoT Hub) y suscriptor",
+  "scripts": {
+    "middleware": "node middleware-azure.js",
+    "subscriber": "node azure-sensor-subscriber.js"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "^5.12.0",
+    "azure-iot-device": "^1.18.0",
+    "azure-iot-device-mqtt": "^1.16.0",
+    "coap": "^1.4.0"
+  }
+}
