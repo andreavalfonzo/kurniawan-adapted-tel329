@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Actividad 4 en Python
+.env
+__pycache__/
+venv/
+build/
+*.native
+*.csc
